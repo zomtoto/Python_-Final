@@ -311,3 +311,5 @@ if __name__ == "__main__":
             conn.close()
         if jpype.isJVMStarted():
             jpype.shutdownJVM()
+        # 종료 전 대기
+        input("프로그램이 종료되었습니다. Enter 키를 눌러 창을 닫으세요.")
